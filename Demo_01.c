@@ -183,7 +183,7 @@ void printPCB(struct PCBNode * head) {
 *		3.掌握进程的基本操作
 *	内容：
 *		编写程序实现进程创建、进程撤销、进程阻塞、进程唤醒和进程调度运行五个基本操作
-*
+*/
 
 //创建进程的就绪队列和阻塞队列
 void init(void) {
@@ -195,7 +195,9 @@ void init(void) {
 	PBlock->next = NULL;
 
 }
-*/
+
+
+
 int main() {
 	struct PCBNode* head;
 	head = newPCB();//初始化链表
